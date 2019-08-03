@@ -1,0 +1,211 @@
+/**
+ * Pizza Game Website CSS
+ * https://pizzagame.party
+ */
+
+/* = Layout = */
+
+/*
+* Normalize.css 8.0.1 © 2018 Nicolas Gallagher and Jonathan Neal under MIT
+* https://necolas.github.io/normalize.css/
+*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+/*
+* Skeleton 2.0.4 © 2014 Dave Gamache under MIT
+* https://getskeleton.com
+*/
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+pre, blockquote, dl, figure, img, table, p, ul, ol, form {
+  margin-bottom: 1.5rem;
+}
+
+.button,
+button {
+  display: inline-block;
+  padding: 2px 30px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 30px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: .5rem 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.center-img {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Responsive video embeds */
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.flex-body {
+  flex: 1;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+.flex-gallery {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap
+}
+
+.right {
+    margin-left: 2em;
+}
+
+.left {
+    margin-right: 2em;
+}
+
+
+/* = Typography/Colors = */
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+@font-face {
+    font-family: "mini-wakuwaku";
+    src: url('fonts/mini-wakuwaku.woff2') format('woff2'),
+         url('fonts/mini-wakuwaku.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Halogen';
+    src: url('fonts/halogen.woff2') format('woff2'),
+         url('fonts/halogen.woff') format('woff');
+}
+
+body {
+    background-color: #f9a4c1;
+    color: #14257b;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+#content {
+    background-color: white;
+    border-radius: 30px;
+    margin: 56px auto 5vmin;
+    padding: 30px;
+    max-width: 800px;
+}
+
+strong {
+    background: #b095da;
+    color: white;
+    padding: 0 5px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-family: "mini-wakuwaku";
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 2px 2px 0 #14257b,
+                 2px -2px 0 #14257b,
+                 -2px 2px 0 #14257b,
+                 -2px -2px 0 #14257b;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Halogen';
+    font-weight: 300;
+    text-align: center;
+}
+
+h3 {
+    background: #ffe8f2;
+    border-radius: 30px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 13px 5px 5px;
+    font-size: 30px;
+}
+
+
+/* = Navigation = */
+
+.nav-top {
+    background-color: none;
+    border-bottom: none;
+    font-family: "mini-wakuwaku";
+    position: fixed;
+    text-align: center;
+    top: 0;
+    transition: all .5s;
+    width: 100%;
+}
+
+.nav-fix {
+    background-color: #f77ea7;
+}
+
+.button:hover,
+button:hover,
+.button:focus,
+button:focus {
+  outline: 0;
+}
+
+.button.button-primary,
+button.button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border: 3px dotted #9ecef7;
+}
+
+.button.button-primary:hover,
+button.button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB;
+}
