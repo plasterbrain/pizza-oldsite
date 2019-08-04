@@ -103,24 +103,22 @@ img {
 
 /* = Typography/Colors = */
 
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
-
 @font-face {
     font-family: "mini-wakuwaku";
-    src: url('../fonts/mini-wakuwaku.woff2') format('woff2'),
-         url('../fonts/mini-wakuwaku.woff') format('woff');
+    src: url("../fonts/mini-wakuwaku.woff2") format("woff2"),
+         url("../fonts/mini-wakuwaku.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Halogen';
-    src: url('../fonts/halogen.woff2') format('woff2'),
-         url('../fonts/halogen.woff') format('woff');
+    font-family: Halogen;
+    src: url("../fonts/halogen.woff2") format("woff2"),
+         url("../fonts/halogen.woff") format("woff");
 }
 
 body {
     background-color: #f9a4c1;
     color: #14257b;
-    font-family: 'Nunito', sans-serif;
+    font-family: "Halogen", sans-serif;
     font-size: 1.8rem;
     line-height: 2;
 }
@@ -155,7 +153,6 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: 'Halogen';
     font-weight: 300;
     text-align: center;
 }
