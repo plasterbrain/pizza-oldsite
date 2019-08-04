@@ -107,14 +107,14 @@ img {
 
 @font-face {
     font-family: "mini-wakuwaku";
-    src: url('fonts/mini-wakuwaku.woff2') format('woff2'),
-         url('fonts/mini-wakuwaku.woff') format('woff');
+    src: url('../fonts/mini-wakuwaku.woff2') format('woff2'),
+         url('../fonts/mini-wakuwaku.woff') format('woff');
 }
 
 @font-face {
     font-family: 'Halogen';
-    src: url('fonts/halogen.woff2') format('woff2'),
-         url('fonts/halogen.woff') format('woff');
+    src: url('../fonts/halogen.woff2') format('woff2'),
+         url('../fonts/halogen.woff') format('woff');
 }
 
 body {
